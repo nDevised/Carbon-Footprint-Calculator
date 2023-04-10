@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/station_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Gas Station"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/carbon_footprint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Carbon FP"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/date_column"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Date"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/ppl_column"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="PPL"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/diesel_column"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Diesel"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/litres_preview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Litres"
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/total_cost_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Total Cost"
+        android:textSize="20sp" />
+</LinearLayout>
